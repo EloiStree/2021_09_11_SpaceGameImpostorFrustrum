@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b4aec0dbbae3f468f1df57fd5b895d, type: 3}
+  m_Name: SpaceShip 256
+  m_EditorClassIdentifier: 
+  m_altasInfo:
+    m_altas: {fileID: 2800000, guid: 3dde74c335b2d6949b45b60902e66081, type: 3}
+    m_altasMap: {fileID: 0}
+    m_dimension:
+      m_textureDimension: 4096
+      m_squareDimension: 256
+    m_deductedFromDimension:
+      m_wasCompted: 1
+      m_sectionAngleHorizontal: 22.5
+      m_sectionAngleHalfHorizontal: 11.25
+      m_sectionAngleVertical: 11.25
+      m_sectionAngleHalfVertical: 5.625
+      m_sectionCount: 16
+      m_sectionCountHalf: 8
+      m_squareDimensionPx: 256
+      m_squareHalfDimensionPx: 128
+      m_squarePourcent: 0.0625
+      m_squarePourcentHalf: 0.03125
