@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ImpostorSolorPlaneLOD : MonoBehaviour
+public class ImpostorSoloPlaneLOD : MonoBehaviour
 {
     public Camera m_targetCamera;
     public ImpostorAtlasGPSScriptable m_default;
@@ -15,9 +15,13 @@ public class ImpostorSolorPlaneLOD : MonoBehaviour
     public TextureSquareCoordinate m_coordinate;
     public Rect m_rect;
     public bool m_isVisible;
+    public bool m_useSharedMateriel;
     private void Awake()
     {
-        m_rendererToAffect.material.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
+        if (m_useSharedMateriel)
+            m_rendererToAffect.sharedMaterial.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
+        else
+            m_rendererToAffect.material.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
 
     }
     private void Update()
@@ -25,12 +29,16 @@ public class ImpostorSolorPlaneLOD : MonoBehaviour
         Refresh();
     }
 
+    [ContextMenu("Refresh")]
     private void Refresh()
     {
         if (m_targetCamera == null)
             m_targetCamera = Camera.main;
         ImpostorAtlasGPSUtility.GetIndexFromWorldPoint(m_targetCamera, m_objectRoot, m_default.m_altasInfo, out m_coordinate);
-        m_rendererToAffect.material.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
+        if (m_useSharedMateriel)
+            m_rendererToAffect.sharedMaterial.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
+        else
+            m_rendererToAffect.material.SetTexture(m_textureName, m_default.m_altasInfo.m_altas);
         ImpostorAtlasGPSUtility.GetLeft2RightBot2TopRectOf(m_default, m_coordinate, out m_rect);
         m_rendererToAffect.material.SetTextureOffset(m_textureName, new Vector2(m_rect.x, m_rect.y));
         m_rendererToAffect.material.SetTextureScale(m_textureName, new Vector2(m_rect.width, m_rect.height));
