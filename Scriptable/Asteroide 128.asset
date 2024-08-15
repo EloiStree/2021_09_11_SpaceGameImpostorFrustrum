@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Asteroide 128
   m_EditorClassIdentifier: 
   m_altasInfo:
-    m_altas: {fileID: 2800000, guid: 5d05fb3c692c88541993e4aab2711023, type: 3}
-    m_altasMap: {fileID: 2800000, guid: e9f6086e2268882438b5baf36d41d2f6, type: 3}
+    m_altas: {fileID: 2800000, guid: 6a315a44b237bb3478997b5d7d1dd45e, type: 3}
+    m_altasMap: {fileID: 2800000, guid: 2fa26a2a03096ad46b8b8c55ed9381ba, type: 3}
     m_dimension:
       m_textureDimension: 4096
       m_squareDimension: 128

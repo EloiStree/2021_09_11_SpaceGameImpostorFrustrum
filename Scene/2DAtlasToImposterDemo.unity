@@ -798,11 +798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6067c1e848673499534e9c677ed0d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_targetAnchorToRotate: {fileID: 23665074}
-  m_speedFactor: 1
-  m_basicAngle: 90
-  m_euleurDirection: {x: 0, y: 0, z: 0}
-  m_constance: {x: 0, y: 0, z: 0}
 --- !u!1 &25645464
 GameObject:
   m_ObjectHideFlags: 0
@@ -9901,7 +9896,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5d05fb3c692c88541993e4aab2711023, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.03125, y: 0.03125}
         m_Offset: {x: 0.9375, y: 0.53125}
     - _MetallicGlossMap:
@@ -36990,7 +36985,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9063db9a79906fa43a4824eb3dcca310, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.015625, y: 0.015625}
         m_Offset: {x: 0.9375, y: 0.703125}
     - _MetallicGlossMap:
@@ -39519,7 +39514,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9063db9a79906fa43a4824eb3dcca310, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.015625, y: 0.015625}
         m_Offset: {x: 0.984375, y: 0.59375}
     - _MetallicGlossMap:
@@ -63570,7 +63565,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5d05fb3c692c88541993e4aab2711023, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.0625, y: 0.0625}
         m_Offset: {x: 0.9375, y: 0.5625}
     - _MetallicGlossMap:
@@ -67443,10 +67438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c722d62d6beb54fa999c306251bacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_linkedTransform: {fileID: 1836049568}
-  m_radius: 0.2
-  m_previousPosition: {x: 0, y: 0, z: 0}
-  m_currentPosition: {x: 0, y: 0, z: 0}
 --- !u!135 &1836049570
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -69602,11 +69593,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c6067c1e848673499534e9c677ed0d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_targetAnchorToRotate: {fileID: 1899120759}
-  m_speedFactor: 1
-  m_basicAngle: 90
-  m_euleurDirection: {x: 0, y: 0, z: 0}
-  m_constance: {x: 0, y: 0, z: 0}
 --- !u!4 &1899120759
 Transform:
   m_ObjectHideFlags: 0
@@ -70123,7 +70109,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9063db9a79906fa43a4824eb3dcca310, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.015625, y: 0.015625}
         m_Offset: {x: 0.921875, y: 0.578125}
     - _MetallicGlossMap:
@@ -77290,7 +77276,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ac54853a0795b6f48989cd2efea6e5ef, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 0.0078125, y: 0.0078125}
         m_Offset: {x: 0.03125, y: 0.5859375}
     - _MetallicGlossMap:
