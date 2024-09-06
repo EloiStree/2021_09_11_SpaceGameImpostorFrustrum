@@ -1,7 +1,7 @@
 
 {                                                                   
-            "name": "be.eloistree.frustrumimpostorEditor",          
-    "references": ["be.eloistree.frustrumimpostor"
+            "name": "be.elab.frustrumimpostorEditor",          
+    "references": ["be.elab.frustrumimpostor"
 ],                                                              
     "optionalUnityReferences": [],                                  
     "includePlatforms": [                                           
