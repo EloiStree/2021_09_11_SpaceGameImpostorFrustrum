@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -74,8 +73,6 @@ public class Experiment_SpaceImposteurBuilder : MonoBehaviour
         copyYStart = (m_camera.pixelHeight / 2) - halfDimension;
         copydimension = dimension;
 
-        int mainPixelStartX;
-        int mainPixelStartY;
 
 
         for (int h = -halfCount, iH=0; h <= halfCount; h++,iH++)
