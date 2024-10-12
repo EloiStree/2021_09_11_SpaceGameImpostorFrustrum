@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b4aec0dbbae3f468f1df57fd5b895d, type: 3}
+  m_Name: Asteroide4096128
+  m_EditorClassIdentifier: 
+  m_altasInfo:
+    m_altas: {fileID: 2800000, guid: 6a315a44b237bb3478997b5d7d1dd45e, type: 3}
+    m_altasMap: {fileID: 2800000, guid: 2fa26a2a03096ad46b8b8c55ed9381ba, type: 3}
+    m_dimension:
+      m_textureDimension: 4096
+      m_squareDimension: 128
+    m_deductedFromDimension:
+      m_wasCompted: 1
+      m_sectionAngleHorizontal: 11.25
+      m_sectionAngleHalfHorizontal: 5.625
+      m_sectionAngleVertical: 5.625
+      m_sectionAngleHalfVertical: 2.8125
+      m_sectionCount: 32
+      m_sectionCountHalf: 16
+      m_squareDimensionPx: 128
+      m_squareHalfDimensionPx: 64
+      m_squarePourcent: 0.03125
+      m_squarePourcentHalf: 0.015625
